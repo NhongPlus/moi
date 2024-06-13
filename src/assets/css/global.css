@@ -1,0 +1,678 @@
+:root{
+    --font-color : #b2b2b2;
+    --color-highlight : #9459DA;
+    --tran: all 0.25s ease ;
+}
+.button{
+    background-color: var(--color-highlight);
+    border-radius: 10px;
+    padding: 7px 20px;
+    border: 0.5px solid #000;
+    transition: all 0.25s ease-in;
+    display: inline-flex;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+    width: auto;
+    height: 100%;
+}
+.button:hover{
+    background-color: #ff589e; 
+}
+h3{
+    margin: 0;
+}
+/* Section-1 Thanh NavBar */
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+    min-height: 100vh;
+    background-color: #f4f0f0;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    border-radius: 45px;
+}
+
+.header .inner-pic img {
+    height: 36px;
+    width: auto;
+}
+
+.header .inner-find input {
+    padding: 7px 20px;
+    border-radius: 10px;
+    transition: all 0.25s ease-in;
+    display: inline-flex;
+    border: 0.5px solid #000;
+}
+
+.header .section-1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header .section-1 ul li {
+    margin-left: 30px;
+}
+
+.header .section-1 ul li a {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header .section-1 ul li a:hover {
+    transition: var(--tran);
+    color: #ff589e;
+}
+
+.inner-bar {
+    display: none;
+}
+
+@media screen and (max-width: 992px){
+    .section-1  .inner-select{
+        display: none;
+    }
+    .inner-bar{
+        display: block;
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 768px){
+    .inner-bar{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 768px){
+    .header .inner-find {
+        display: none;
+    }
+}
+/* Section-1 End Thanh NavBar */
+
+/* Section-2 */
+.bg {
+    background-image: url("../image/bg-about.jpg");
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.95;
+    display: flex;
+}
+
+.section-2 {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 .inner-title {
+    color: #fff;
+    padding: 30px 0;
+    backdrop-filter: saturate(0%);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .inner-title h1 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.section-2 .inner-title p {
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.section-2 .inner-title .button-pink {
+    background-color: #8261ee;
+}
+
+.section-2 .inner-title .button-pink:hover {
+    background-color: #ff589e;
+}
+@media screen and (max-width: 768px){ 
+    .section-2 .inner-title h1 {
+        margin-bottom: 30px;
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .section-2 .inner-title p {
+        margin-bottom: 30px;
+        font-weight: 300;
+        font-size: 16px;
+        padding: 0 40px;
+    }
+}
+/* End Section-2 */
+/* Section-3 */
+
+.section-3{
+    padding: 120px;
+}
+.section-3 .inner-image{
+    padding: 0px 30px;
+}
+.section-3 .inner-desc{
+    padding-right: 50px;
+    flex: 1;
+}
+.section-3 .inner-desc h1{
+    font-size: 26px;
+    color: #1E1E1E;
+}
+.section-3 .inner-desc p{
+    padding: 20px 0;
+    font-size: 18px;
+    color: #777;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1262px){
+    .section-3{
+        padding: 50px;
+    }
+    .section-3 .inner-desc{
+        padding: 20px 10px;
+        flex: 1;
+        text-align: left;
+    }
+    .section-3 .row{
+        text-align: center;
+    }
+    .section-3 .inner-image{
+        padding: 20px 0;
+    }
+}
+/* End Section-3 */
+
+/*  Section-4 */
+.section-4{
+    padding: 100px 0;
+}
+.section-4 .inner-categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    transition: var(--tran);
+    padding: 15px 0px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.section-4  .inner-categories:hover  {
+    transform: translateY(-19px);
+}
+.section-4 .inner-categories::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0.55;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #FFF;
+    z-index: -1;
+    border-radius: 20px;
+}
+.section-4 .inner-categories p{
+    margin-top: 20px;
+}
+.section-4 .inner-head{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-bottom: 4px solid #8261ee;
+    border-radius: 20px 20px 0 0;
+}
+.section-4 .inner-head h3{
+    padding: 20px 0 16px 0;
+}
+@media screen and (max-width: 768px){ 
+    .section-4 .inner-categories {
+        margin: 15px 5px;
+    }
+    .section-4 .inner-categories:hover {
+        transform: translateY(-10px);
+    }
+}
+/* End Section-4 */
+
+/* Section-5 */
+.section-5{
+    padding: 100px;
+}
+.section-5 .inner-product{
+    border: 0.5px solid #efeaea;
+    background-color: #fff;
+    position: relative;
+    transition: var(--tran);
+    margin-bottom: 20px;
+}
+.section-5  .inner-product:hover  {
+    transform: translateY(-5px);
+}
+.section-5 .inner-discount{
+    width: 45px;
+    height: 22px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 0px 3px;
+    font-size: 14px;
+}
+.section-5 .inner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh vừa đủ với khung mà không biến đổi tỷ lệ */
+}
+.section-5 .inner-desc {
+    margin: 8px 3px;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Hiển thị dấu ba chấm (...) cho phần chữ thừa */
+    white-space: nowrap; /* Ngăn chữ xuống dòng */
+    -webkit-line-clamp: 2; /* Số dòng muốn hiển thị */
+}
+.section-5 .inner-desc p{
+    margin: 8px;
+}
+.section-5 .inner-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 6px;
+}
+.section-5 .inner-price p{
+    color: red;
+    font-size: 1rem;
+    margin: 0 3px;
+}
+.section-5 .inner-price span{
+    margin-top: 4px;
+    color: rgba(0,0,0,.54118);
+    font-size: 0.7rem;
+}
+.section-5 .inner-head {
+    display: flex;
+    position: relative;
+    height: 3.5rem;
+    cursor: pointer;
+}
+.section-5 .inner-head h3{
+    font-size: 1.25rem;
+    user-select: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 1.125rem 1.25rem;
+    display: inline-block;
+    background-color: #9c5cdb;
+    margin: auto;
+    z-index: 1;
+    border-radius: 0.625rem;
+    text-transform: capitalize;
+}
+.section-5 .inner-head hr{
+    position: absolute;
+    border-top: 2px dotted rgba(0, 0, 0, 0.26);
+    width: 100%;
+    left: 0px;
+    top: 50%;
+    margin: 0px;
+}
+@media screen and (max-width: 600px){ 
+    .section-5 .inner-head h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .section-5 {
+        padding: 10px 50px;
+    }
+}
+@media screen and (max-width: 991px){ 
+    .section-5 .inner-head h3{
+        font-size: 15px;
+        width: 100%;
+    }
+    .section-5 {
+        padding: 10px 50px;
+    }
+}
+/* End Section-5 */
+
+/* Section-6 */
+.section-6{
+    padding: 100px 0;
+}
+.section-6 .inner-khung{
+    background-color: #fff;
+    padding: 90px 0;
+    border-radius: 50px;
+}
+.section-6 .inner-title h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-6 .input-field {
+    position: relative;    
+    display: flex;
+}
+.section-6 .inner-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 160px;
+}
+
+
+.section-6 .inner-login .button,
+.section-6 .input-field input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: solid 1px #8d8d8d;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  width: 100%; 
+}
+
+.section-6 .inner-login .button{
+    margin-top: 30px;
+    margin-left: 0;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+}
+.section-6 .input-field input:focus,
+.section-6 .input-field input:valid {
+    outline: none;
+    border: solid 1px #0034de;
+}
+.section-6 .inner-head{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    padding: 18px 40px;
+    display: flex;
+}
+.section-6 .inner-head h1{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+@media screen and (max-width: 991px){ 
+    .section-6 {
+        padding: 90px 50px;
+    }
+}
+@media screen and (max-width: 768px){ 
+    .section-6 .inner-login{
+        padding: 10px 90px;
+    }
+}
+@media screen and (max-width: 576px){ 
+    .section-6 .inner-login{
+        padding: 10px 40px;
+    }
+}
+/* End Section-6 */
+/* Section-7 */
+.section-7{
+    padding: 100px 0;
+}
+.section-7 .inner-khung{
+    background-color: #fff;
+    padding: 90px 0;
+    border-radius: 50px;
+}
+.section-7 .inner-title h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-7 .input-field {
+    position: relative;    
+    display: flex;
+}
+.section-7 .inner-login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 160px;
+}
+
+.section-7 .inner-login .button,
+.section-7 .input-field input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: solid 1px #8d8d8d;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  width: 100%; /* Chỉnh kích thước của button và input */
+}
+
+.section-7 .inner-login .button{
+    margin-top: 30px;
+    margin-left: 0;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+}
+.section-7 .input-field input:focus,
+.section-7 .input-field input:valid {
+    outline: none;
+    border: solid 1px #0034de;
+}
+.section-7 .inner-head{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+    padding: 18px 40px;
+    display: flex;
+}
+.section-7 .inner-head h1{
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+@media screen and (max-width: 991px){ 
+    .section-7 {
+        padding: 90px 50px;
+    }
+}
+@media screen and (max-width: 768px){ 
+    .section-7 .inner-login{
+        padding: 10px 90px;
+    }
+}
+@media screen and (max-width: 576px){ 
+    .section-7 .inner-login{
+        padding: 10px 40px;
+    }
+}
+/* End Section-7 */
+/* Section-8 */
+.section-8 {
+    display: flex;
+    flex-direction: row;    
+    background-color: #fff;
+    padding: 30px;
+}
+.section-8 .row{
+    padding: 27px 0;
+    background-color: #fff;
+}
+.is-medium {
+    padding: 30px 12px;
+}
+.is-medium span{
+    padding: 0 5px;
+}
+.section-8 .inner-about h1{
+    padding: 50px 10px 20px 0;
+    font-size: 25px;
+}
+.section-8 .inner-about img{
+    width: 100%;
+}
+.section-8 .inner-des{
+    margin-top: 40px;
+}
+.section-8 .inner-des h1{
+    margin-top: 40px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.section-8 .inner-des ul{
+    margin-top: 20px;
+}
+@media screen and (max-width : 768px){
+    .section-8 .col-lg-5{
+        display: none;
+    } 
+    .section-8 .col-lg-1{
+        display: none;
+    } 
+}
+/* End Section-8 */
+
+/* Section-9 */
+
+.section-9 .inner-pro h1{
+    background-color: #f5f5f5;
+    padding: 10px;
+    font-size: 18px;
+}
+.section-9 .inner-list{
+    display: flex;
+    justify-content: flex-start;
+}
+.section-9 .inner-list ul:last-child{
+    list-style-type: none;
+}
+.section-9 .inner-haha{
+    background-color: #fff;
+    margin: 100px 0;
+    padding: 30px;
+}
+/* End Section-9 */
+
+/* Section-12 */
+.section-12 {
+    background-color: #9c5cdb;
+}
+
+.section-12 .row {
+    margin: 0;
+}
+
+.section-12 .inner-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.section-12 .inner-list li {
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.section-12 .inner-list li i {
+    color: #8261ee;
+}
+
+.section-12 .inner-copy {
+    text-align: left;
+    padding: 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.section-12 .inner-copy ul li{
+    list-style-type: none;
+    padding: 2px 0;
+}
+.section-12 .inner-copy ul li:nth-child(2n){
+    margin-left: 12px;
+}
+.section-12 .inner-text {
+    padding: 30px 0 10px 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.section-12 .inner-text .abc{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    margin: 0 auto; /* Thiết lập margin để căn giữa theo chiều ngang */
+    width: 80%;
+    color: #fff;
+}
+@media screen and (max-width: 991px){ 
+    .section-12 .inner-copy{
+        display: none;
+    }
+    .section-12 .inner-text{
+        padding: 30px 90px;
+    }
+}
+@media screen and (max-width: 568px){ 
+    .section-12 .inner-text{
+        padding: 30px 20px;
+    }
+}
+/* End Section-3 */

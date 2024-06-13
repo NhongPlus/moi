@@ -1,0 +1,149 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Tủ",
+        "description": "Danh mục tủ gỗ nội thất",
+        "image": "url_to_category_image.jpg",
+        "products": [
+          {
+            "id": 101,
+            "name": "Tủ quần áo gõ đỏ thiết bị thông minh 1m8 x2,5m TQA1990",
+            "description": "Tủ gỗ thông nhập khẩu, 3 cánh, có kệ hộp đựng đồ linh tinh.",
+            "price": "79.000.000 ₫",
+            "image": "url_to_product_image_1.jpg",
+            "size": "120x180x50 cm",
+            "material": "Gỗ thông",
+            "color": "Nâu"
+          },
+          {
+            "id": 102,
+            "name": "Tủ Quần Áo Cổ Điển Royal Châu Âu Siêu Vip TQA308",
+            "description": "Tủ gỗ sồi, thiết kế hiện đại, có nhiều ngăn đựng quần áo và phụ kiện.",
+            "price": 1800.00,
+            "image": "url_to_product_image_2.jpg",
+            "size": "150x200x60 cm",
+            "material": "Gỗ sồi",
+            "color": "Trắng"
+          },
+          {
+            "id": 103,
+            "name": "Tủ Quần Áo Cổ Điển Royal Châu Âu Siêu Vip TQA308",
+            "description": "Tủ gỗ sồi, thiết kế hiện đại, có nhiều ngăn đựng quần áo và phụ kiện.",
+            "price": 1800.00,
+            "image": "url_to_product_image_2.jpg",
+            "size": "150x200x60 cm",
+            "material": "Gỗ sồi",
+            "color": "Trắng"
+          },
+          {
+            "id": 104,
+            "name": "Tủ Quần Áo Cổ Điển Royal Châu Âu Siêu Vip TQA309",
+            "description": "Tủ gỗ sồi, thiết kế hiện đại, có nhiều ngăn đựng quần áo và phụ kiện.",
+            "price": 1800.00,
+            "image": "url_to_product_image_2.jpg",
+            "size": "150x200x60 cm",
+            "material": "Gỗ sồi",
+            "color": "Trắng"
+          },
+          {
+            "id": 105,
+            "name": "Tủ Quần Áo Cổ Điển Royal Châu Âu Siêu Vip TQA310",
+            "description": "Tủ gỗ sồi, thiết kế hiện đại, có nhiều ngăn đựng quần áo và phụ kiện.",
+            "price": 1800.00,
+            "image": "url_to_product_image_2.jpg",
+            "size": "150x200x60 cm",
+            "material": "Gỗ sồi",
+            "color": "Trắng"
+          },
+          {
+            "id": 106,
+            "name": "Tủ Quần Áo Cổ Điển Royal Châu Âu Siêu Vip TQA311",
+            "description": "Tủ gỗ sồi, thiết kế hiện đại, có nhiều ngăn đựng quần áo và phụ kiện.",
+            "price": 1800.00,
+            "image": "url_to_product_image_2.jpg",
+            "size": "150x200x60 cm",
+            "material": "Gỗ sồi",
+            "color": "Trắng"
+          },
+          {
+            "id": 107,
+            "name": "Tủ Quần Áo Cổ Điển Royal Châu Âu Siêu Vip TQA312",
+            "description": "Tủ gỗ sồi, thiết kế hiện đại, có nhiều ngăn đựng quần áo và phụ kiện.",
+            "price": 1800.00,
+            "image": "url_to_product_image_2.jpg",
+            "size": "150x200x60 cm",
+            "material": "Gỗ sồi",
+            "color": "Trắng"
+          },
+          {
+            "id": 108,
+            "name": "Tủ Quần Áo Cổ Điển Royal Châu Âu Siêu Vip TQA313",
+            "description": "Tủ gỗ sồi, thiết kế hiện đại, có nhiều ngăn đựng quần áo và phụ kiện.",
+            "price": 1800.00,
+            "image": "url_to_product_image_2.jpg",
+            "size": "150x200x60 cm",
+            "material": "Gỗ sồi",
+            "color": "Trắng"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Bàn",
+        "description": "Danh mục bàn gỗ nội thất",
+        "image": "url_to_category_image.jpg",
+        "products": [
+          {
+            "id": 201,
+            "name": "Bàn làm việc gỗ óc chó",
+            "description": "Bàn làm việc gỗ óc chó cao cấp, thiết kế hiện đại.",
+            "price": 1200.00,
+            "image": "url_to_product_image_3.jpg",
+            "size": "120x60x75 cm",
+            "material": "Gỗ óc chó",
+            "color": "Nâu đen"
+          },
+          {
+            "id": 202,
+            "name": "Bàn ăn gỗ thông",
+            "description": "Bàn ăn gỗ thông tự nhiên, kích thước lớn, phù hợp cho gia đình đông người.",
+            "price": 900.00,
+            "image": "url_to_product_image_4.jpg",
+            "size": "180x90x75 cm",
+            "material": "Gỗ thông",
+            "color": "Vàng nhạt"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Ghế gỗ",
+        "description": "Danh mục ghế gỗ nội thất",
+        "image": "url_to_category_image.jpg",
+        "products": [
+          {
+            "id": 301,
+            "name": "Ghế sofa gỗ cao cấp",
+            "description": "Ghế sofa gỗ tự nhiên, êm ái và thoải mái.",
+            "price": 700.00,
+            "image": "url_to_product_image_5.jpg",
+            "size": "120x80x90 cm",
+            "material": "Gỗ tự nhiên",
+            "color": "Xám"
+          },
+          {
+            "id": 302,
+            "name": "Ghế gỗ thông thư giãn",
+            "description": "Ghế gỗ thông đơn giản, thích hợp cho không gian thư giãn.",
+            "price": 400.00,
+            "image": "url_to_product_image_6.jpg",
+            "size": "90x70x80 cm",
+            "material": "Gỗ thông",
+            "color": "Nâu"
+          }
+        ]
+      }
+    ]
+  }
+  
